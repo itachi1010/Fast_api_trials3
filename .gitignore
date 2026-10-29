@@ -1,0 +1,73 @@
+# ==========================================
+# FastAPI & Environment Configuration
+# ==========================================
+# NEVER commit sensitive credentials, API keys, or tokens to git
+.env
+.env.*
+!.env.example
+secret_key.txt
+
+# Databases
+*.db
+*.sqlite3
+
+# ==========================================
+# Python Virtual Environments & Dependencies
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+pyvenv.cfg
+.python-version
+__pypackages__/
+Pipfile.lock
+poetry.lock
+
+# ==========================================
+# Python Byte-compiled / Optimized / DLL
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Testing and Code Coverage
+# ==========================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# ==========================================
+# IDEs and Text Editors
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Log.txt
+*.log
+
+# ==========================================
+# Claude
+# ==========================================
+
+.claude
